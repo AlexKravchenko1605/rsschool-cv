@@ -7,3 +7,47 @@
 **E-mail** : alexkravchenko1605@gmail.com  
 [Linkedin](https://www.linkedin.com/in/alex-kravchenko-18a312261)  
 **Skype** - live:.cid.d3235b6e16ec69d
+# **About me**
+
+I really like to see the result of my work, so developing web applications and websites is very attractive to me, because here you can see the result right away.
+
+# **Skills**
+
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- IDE: VSCode
+- OS: Windows
+
+# **Code Examples**
+
+```
+/*  функция humanReadableTime, принимает аргументом секунды и приводит их в человекочитаемый формат */
+
+function humanReadableTime(seconds) {
+  //тело функции
+  const hour = seconds / 3600;
+  const min = (seconds - parseInt(hour) * 3600) / 60;
+  const sec = seconds - parseInt(hour) * 3600 - parseInt(min) * 60;
+  return `'${hour < 10 ? "0" + parseInt(hour) : parseInt(hour)}:${
+    min < 10 ? "0" + parseInt(min) : parseInt(min)
+  }:${sec < 10 ? "0" + parseInt(sec) : parseInt(sec)}'`;
+}
+
+console.log(humanReadableTime(0)); // '00:00:00'
+console.log(humanReadableTime(90)); // '00:01:30'
+console.log(humanReadableTime(3599)); // '00:59:59'
+console.log(humanReadableTime(45296)); // '12:34:56'
+```
+
+# **Experience**
+
+[A project for a children's development studio (training)](https://alexkravchenko1605.github.io/__ym/#main) 
+  **Description this project**  
+ The following technologies were used in the project - **HTML**, **CSS**, **Javascript**, **JSONBin (used to store data (list of studio students and schedule) on the server)**.  
+ The project has the following functionality - adding students, removing students, it is possible to mark the studio student's attendance, purchase subscriptions, make a schedule for the studio, edit it. All information is stored on the server. The ability to view statistical information, which is displayed as a graph, is implemented. The graph shows where people have learned about the development studio. Based on this information, business owners can make decisions about increasing advertising in one sector or another.
+
+[LOU](https://alexkravchenko1605.github.io/LOU/index.html)  
+  **Description this project**  
+  This project was with an emphasis on layout, so the main technologies used for this project were **HTMl** and **CSS**. I also used **Javascript** to create the shopping cart. The shopping cart is saved in localstorage. The site adapts to any screen size.
