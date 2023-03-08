@@ -43,7 +43,7 @@ console.log(humanReadableTime(45296)); // '12:34:56'
 
 # **Experience**
 
-[A project for a children's development studio (training)](https://alexkravchenko1605.github.io/__ym/#main) 
+[A project for a children's development studio (training)](https://alexkravchenko1605.github.io/__ym/#main)   
   **Description this project**  
  The following technologies were used in the project - **HTML**, **CSS**, **Javascript**, **JSONBin (used to store data (list of studio students and schedule) on the server)**.  
  The project has the following functionality - adding students, removing students, it is possible to mark the studio student's attendance, purchase subscriptions, make a schedule for the studio, edit it. All information is stored on the server. The ability to view statistical information, which is displayed as a graph, is implemented. The graph shows where people have learned about the development studio. Based on this information, business owners can make decisions about increasing advertising in one sector or another.
